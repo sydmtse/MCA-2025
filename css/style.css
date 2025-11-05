@@ -75,6 +75,24 @@ header h1 {
   margin-bottom: 30px;
 }
 
+.musescore {
+  width: 105%;
+  height: 500px;
+  background-image: url('musescore.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.meiscreenshot {
+  width: 600px;
+  height: 500px;
+  background-image: url('meiscreenshot.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
 
 /* Weeks section */
 .weeks {
