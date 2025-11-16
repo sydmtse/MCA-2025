@@ -16,7 +16,9 @@ Music scores or transcriptions are less widely available for popular music or hi
 **Acoustic**
 Referring to audio recordings themselves , is widely attainable through streaming services - like Spotify, Apple Music, and YouTube - but tightly controlled by copyright holders. There are also channels that with accompanying technical metadata - tempo, loudness, energy, and key - derived through audio analysis tools. Researchers can access these acoustic features via APIs for computational study. However, while acoustic data for the *Top Hits of 1993* is plentiful in commercial contexts, it remains constrained in accessibility and long-term preservation. But there are multiple avenues in addition to the band's official channel but also live concert recordings, lyric videos, and fan covers. 
 
+### Weeks' HTML Pages
 
+- [Week One](https://sydmtse.github.io/MCA-2025/weeks/week1)
 
 
 
