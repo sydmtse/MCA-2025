@@ -18,6 +18,7 @@ Referring to audio recordings themselves , is widely attainable through streamin
 
 ### Weeks' HTML Pages
 
+- [Home Page](https://sydmtse.github.io/MCA-2025/blankPage) - This page links to each of the weeks work that I have done. It is a more styled version of this README that should serve as easy navigation through my work.
 - [Week One](https://sydmtse.github.io/MCA-2025/weeks/week1)
 
 
