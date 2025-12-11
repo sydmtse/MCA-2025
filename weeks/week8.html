@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 8</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="page">
+    <header>
+      <h1>Week 8: Music as Sound</h1>
+    </header>
+
+     <section class="weeks">
+      <div class="week-buttons">
+    <a href="../blankPage.html" class="week-btn">Home Page</a>
+    <a href="week1.html" class="week-btn">Week 1</a>
+    <a href="week2.html" class="week-btn">Week 2</a>
+    <a href="week3.html" class="week-btn">Week 3</a>
+    <a href="week4.html" class="week-btn">Week 4</a>
+    <a href="week5.html" class="week-btn">Week 5</a>
+    <a href="week7.html" class="week-btn">Week 7</a>
+    <a href="week9.html" class="week-btn">Week 9</a>
+    <a href="week10.html" class="week-btn">Week 10</a>
+
+      </div>
+    </section>
+
+     <section class="content-box">
+   <h2>Task 1: Analyze Audio Tracks</h2>
+   <p>For this task, I selected 3 audio tracls related to my theme:</p>
+
+<div class="audio-container">
+  <h3>Fade Into You by Mazzy Star</h3>
+  <audio id="musicSample" controls>
+    <source src="../mazzy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div class="audio-container">
+   <h3>Mr.Jones by Counting Crows</h3>
+  <audio id="musicSample" controls>
+    <source src="../crows.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<div class="audio-container">
+   <h3>Cryin' by Aerosmith</h3>
+  <audio id="musicSample" controls>
+    <source src="../aero.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+   <div class="table-container">
+    <table>
+      <tbody>
+        <tr>
+          <th>  </th>
+          <td>
+          <h3>Fade Into You</h3>
+          </td>
+          <td>
+          <h3>Mr.Jones</h3>
+          </td>
+          <td>
+          <h3>Cryin'</h3>
+          </td>
+        </tr>
+        <tr>
+          <th>Artist</th>
+          <td>Hope Sandoval, David Roback</td>
+          <td>Adam Duritz</td>
+          <td>Steven Tyler</td>
+        </tr>
+        <tr>
+          <th>Composer</th>
+          <td>David Roback</td>
+          <td>Adam Duritz, David Bryson</td>
+          <td>Steven Tyler, Joe Perry, Taylor Rhodes</td>
+        </tr>
+        <tr>
+          <th>Copyright</th>
+          <td>CC BY-NC-SA</td>
+          <td>CC BY-NC-SA</td>
+          <td>CC BY-NC-SA</td>
+        </tr>
+        <tr>
+          <th>Genre</th>
+          <td>Dream Pop</td>
+          <td>Alternative Rock</td>
+          <td>Blues Rock</td>
+        </tr>
+        <tr>
+          <th>Source</th>
+          <td>Soundcloud</td>
+          <td>Soundcloud</td>
+          <td>Soundcloud</td>
+        </tr>
+        <tr>
+          <th>File/Audio Format</th>
+          <td>mp3</td>
+          <td>mp3</td>
+          <td>mp3</td>
+        </tr>
+        <tr>
+          <th>Number of Channels</th>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <th>Sample Rate</th>
+          <td>44 100</td>
+          <td>44 100</td>
+          <td>44 100</td>
+        </tr>
+        <tr>
+          <th>Bits per Second</th>
+          <td>130 091</td>
+          <td>129 537</td>
+          <td>129 915</td>
+        </tr>
+        <tr>
+          <th>Duration</th>
+          <td>04:12</td>
+          <td>04:29</td>
+          <td>05:30</td>
+        </tr>
+      </tbody>
+    </table>
+   </div>
+
+    </section>
+    
+<section class="content-box">
+   <h2>Task 2: Analysis of Tracks in SonicVisualizer</h2>
+   
+   <h3>Fade Into You by Mazzy Star</h3>
+   <p class="subtitle">Waveform</p>
+   <img src="../mazzy-waveform.png" alt="Fade Into You waveform" class="analysis-img">
+
+   <p class="subtitle">Spectrogram</p>
+   <img src="../mazzy-spec.png" alt="Fade Into You spectrogram" class="analysis-img">
+
+   <h3>Mr. Jones by Counting Crows</h3>
+   <p class="subtitle">Waveform</p>
+   <img src="../crows-waveform.png" alt="Mr. Jones waveform" class="analysis-img">
+
+   <p class="subtitle">Spectrogram</p>
+   <img src="../crows-spec.png" alt="Mr. Jones spectrogram" class="analysis-img">
+
+   <h3>Cryin' by Aerosmith</h3>
+   <p class="subtitle">Waveform</p>
+   <img src="../aero-waveform.png" alt="Cryin waveform" class="analysis-img">
+
+   <p class="subtitle">Spectrogram</p>
+   <img src="../aero-spec.png" alt="Cryin spectrogram" class="analysis-img">
+
+   <h3>Advantage of Time-Frequency Analysis over Waveform Analysis</h3>
+   <p>A time-frequency analysis offers the advantage of displaying how energy is distributed across different frequency bands over time - information that is hidden in a waveform display. Waveforms only show amplitude changes and cannot distinguish whether a loud moment contains low-frequency bass or high-frequency harmonics. In contrast, spectrograms reveal the spectral structure of a track and make it possible to decipher production quality, dynamic range, and instrument density.</p>
+   <p>For example, in Fade Into You (Mazzy Star), the spectrogram shows a relatively soft and consistent mid-frequency band throughout the track. This reflects its spacey and atmospheric production, something not clearly seen in the waveform’s shape. Meanwhile, Cryin’ (Aerosmith) exhibits intense, continuous high-frequency energy and dense mid-range bands across the entire track, indicating heavy compression and “loudness-war” production. This doesn’t appear as evidently in the waveform alone, making time-frequency analysis more informative for greater understanding.</p>
+</section>
+</div>
+</body>
