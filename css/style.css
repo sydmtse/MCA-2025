@@ -62,6 +62,14 @@ header h1 {
    font-size: 1.8rem;
 }
 
+.content-container h3 {
+  margin-top: 80px;      /* increase space above */
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
 .content-container p {
   line-height: 1.6;
   color: #ffffff;
@@ -78,17 +86,16 @@ header h1 {
 }
 
 .musescore {
-  width: 100%;
+  width: auto;
   height: 700px;
-  background-image: url('musescore.png');
   background-size: cover;
   background-position: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .meiscreenshot {
-  width: 600px;
-  height: 500px;
+  width: 500px;
+  height: 350px;
   background-image: url('meiscreenshot.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -172,39 +179,55 @@ header h1 {
   margin-top: 30px;
 }
 
-/* Shared button styles */
-.back-btn,
-.next-btn {
-  border-radius: 50px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.25s ease;
-  display: inline-block;
-  border: 2px solid #a2906d;
+/* music button styles */
+.audio-container {
+  text-align: center;
+  margin-top: 20px;
 }
 
-/* Back button */
-.back-btn {
-  background-color: #fff;
-  color: #a2906d;
+/* week 8 table styles */
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; 
+  margin-top: 50px;
 }
 
-.back-btn:hover {
-  background-color: #a2906d;
-  color: #fff;
-  transform: translateY(-2px);
+th, td, tr {
+  border: 1px solid #a2906d;
+  padding: 8px 10px;
+  text-align: left;
 }
 
-/* Next button */
-.next-btn {
-  background-color: #a2906d;
-  color: #fff;
+th {
+  background-color: #bea3c7;
+  font-weight: bold;
 }
 
-.next-btn:hover {
-  background-color: #fff;
-  color: #a2906d;
-  transform: translateY(-2px);
+/* week 8 graph images */
+
+.analysis-img {
+  width: 100%;       /* scales nicely */
+  max-width: 700px;  /* prevents oversized images */
+  margin: 10px 0 25px;
+  display: block;    /* puts image on its own line */
+  border-radius: 6px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.matrix-img {
+  width: 100%;       /* scales nicely */
+  max-width: 300px;  /* prevents oversized images */
+  margin: 10px 0 25px;
+  display: block;    /* puts image on its own line */
+  border-radius: 6px;
 }
